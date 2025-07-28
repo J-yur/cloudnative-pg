@@ -226,7 +226,7 @@ We can accomplish this with the following commands:
 ``` sh
 
 helm upgrade --install \
-  -f https://raw.githubusercontent.com/<your-username>/cloudnative-pg/main/docs/src/samples/monitoring/loki-grafana-stack.yaml \
+  -f https://raw.githubusercontent.com/J-yur/cloudnative-pg/main/docs/src/samples/monitoring/loki-grafana.yaml \
   loki-logs grafana/loki-stack \
   --namespace monitoring --create-namespace
 ```
