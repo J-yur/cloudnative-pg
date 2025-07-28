@@ -251,4 +251,4 @@ providing the credentials `admin` as username and password
 
 Here is a dashboard I created to visualize the logs collected by Loki:
 
-![local grafana](images/grafana-local.png)
+![local grafana](images/loki.png)
