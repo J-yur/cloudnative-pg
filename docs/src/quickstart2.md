@@ -242,7 +242,8 @@ In our installation so far, Grafana is deployed with no predefined dashboards.
 To open Grafana, you can port-forward the grafana service:
 
 ``` sh
-kubectl port-forward svc/loki-logs-grafana 3000:80
+kubectl port-forward svc/loki-logs-grafana 3000:80 -n monitoring
+
 ```
 
 and access Grafana locally at [`http://localhost:3000/`](http://localhost:3000/)
