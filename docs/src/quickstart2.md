@@ -155,7 +155,7 @@ spec:
     There are some examples cluster configurations bundled with the operator.
     Please refer to the ["Examples" section](samples.md).
 
-## Part 5: Monitor logs with Loki and Grafana
+## Part 4: Monitor logs with Loki and Grafana
 
 !!! Important
     Installing Loki and Grafana is beyond the scope of this project. The instructions in this section are provided for experimentation and illustration only.
